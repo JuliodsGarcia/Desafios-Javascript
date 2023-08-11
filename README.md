@@ -77,3 +77,19 @@ Reforçando os conceitos de:
 <a href="https://www.figma.com/file/CAzN1h421IpWC64JWcjnbv/IMC-(Copy)?node-id=6%3A4&mode=dev" target="_blank">
 <img src="https://user-images.githubusercontent.com/71772559/178192253-4fe4757c-de57-4878-a38c-a483c25670b1.png" />
 </a>
+
+# Focus Timer
+
+## Screenshots
+
+![App Screenshot](https://imgur.com/X3xqBZ2.png)
+
+- 
+
+<a href="" target="_blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192066-d52e0cf7-906e-4baa-80f3-4b49dde153c0.png" />
+</a>
+
+<a href="https://www.figma.com/file/d2c76yv2iDjXYaph4Ja4h7/Focus-Timer-V2-%E2%80%A2-Projeto-Explorer-(Community)?node-id=1422%3A28&mode=dev" target="_blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192253-4fe4757c-de57-4878-a38c-a483c25670b1.png" />
+</a>
