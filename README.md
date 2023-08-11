@@ -53,3 +53,27 @@ Reforçando os conceitos de:
 <a href="https://www.figma.com/file/BxepUBhfjrhA6lGhyRX0gL/Biscoito-da-Sorte-(Community)?mode=dev" target="_blank">
 <img src="https://user-images.githubusercontent.com/71772559/178192253-4fe4757c-de57-4878-a38c-a483c25670b1.png" />
 </a>
+
+# Projeto 03/ Calculadora de IMC
+
+## Screenshots
+
+![App Screenshot](https://imgur.com/PxFqpsy.png)
+
+Reforçando os conceitos de:
+
+- Eventos
+- Manipulação da DOM
+- Funções no Javascript
+- Estrutura de dados HTML
+- Animações com CSS
+- Funções *callback*
+- Arrays
+
+<a href="https://codepen.io/juliodsgarcia/pen/ExOBNvW" target="_blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192066-d52e0cf7-906e-4baa-80f3-4b49dde153c0.png" />
+</a>
+
+<a href="https://www.figma.com/file/CAzN1h421IpWC64JWcjnbv/IMC-(Copy)?node-id=6%3A4&mode=dev" target="_blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192253-4fe4757c-de57-4878-a38c-a483c25670b1.png" />
+</a>
