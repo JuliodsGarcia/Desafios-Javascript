@@ -82,7 +82,7 @@ Reforçando os conceitos de:
 
 ## Screenshots
 
-![App Screenshot](https://imgur.com/X3xqBZ2.png)
+![App Screenshot](https://imgur.com/CqquXeh.png)
 
 - 
 
