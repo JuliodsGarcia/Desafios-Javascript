@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="src/FocusTimer/main.js" type="module" defer></script>
+    <link
+      rel="shortcut icon"
+      href="src/assets/Favicon.svg"
+      type="image/x-svg"
+    />
+    <title>Focus Timer 2.0</title>
+  </head>
+  <body>
+    <div id="app">
+      <section id="controls">
+        <div id="timer">
+          <span id="minutes" contenteditable="true">00</span>
+          <span>:</span>
+          <span id="seconds">00</span>
+        </div>
+
+        <div class="flex">
+          <button
+            id="playPauseButton"
+            class="ph ph-play"
+            data-action="toggleRunning"
+          ></button>
+
+          <button class="ph-fill ph-stop" data-action="reset">
+            <span class="sr-only">reiniciar contador</span>
+          </button>
+
+          <button
+            id="addMinutesButton"
+            class="ph-bold ph-plus"
+            data-action="plusMinutes"
+          >
+            <span>Adicionar 5 minutos</span>
+          </button>
+
+          <button
+            id="lessMinutesButton"
+            class="ph-bold ph-minus"
+            data-action="minusMinutes"
+          >
+            <span>Diminuir 5 minutos</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="grid-container">
+        <button class="card" data-index="0">
+          <img src="src/assets/forest.svg" alt="" />
+        </button>
+        <button class="card" data-index="1">
+          <img src="src/assets/rain.svg" alt="" />
+        </button>
+        <button class="card" data-index="2">
+          <img src="src/assets/Coffeeshop.svg" alt="" />
+        </button>
+        <button class="card" data-index="3">
+          <img src="src/assets/fireplace.svg" alt="" />
+        </button>
+      </section>
+    </div>
+  </body>
+</html>
