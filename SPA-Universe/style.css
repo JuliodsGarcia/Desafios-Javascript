@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-image: url('/assets/mountains-universe1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+  display: flex;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 3rem 5rem;
+}
+header nav a {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #C4C4CC;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+header nav a:nth-child(2) {
+  color: white;
+}
+
+#content {
+  height: 100%;
+  display: grid;
+  place-content: center;
+  gap: 3rem;
+  margin-top: -150px;
+}
+#content h1 {
+  font-size: 3rem;
+  color: #E1E1E6;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#content button {
+  width: 15rem;
+  padding: 12px 32px;
+  border-radius: 5px;
+  border: 2px solid #FFF;
+  background: transparent;
+  color: white;
+  margin: 0 auto;
+  cursor: pointer;
+}
+#content button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* Page Universe  */
+.universe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('/assets/mountains-universe2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#content-text {
+  max-width: 60rem;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  gap: 2rem;
+  margin-top: -15rem;
+  padding: 0 10rem;
+}
+ #content-text h2 {
+  color: #E1E1E6;
+  font-family: sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 125%;
+}
+#content-text p {
+  color: #E1E1E6;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+
+/* Page exploracao  */
+.exploracao {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('/assets/mountains-universe3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
