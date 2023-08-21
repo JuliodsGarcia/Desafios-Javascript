@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --btn-primary-color: #065E7C;
+  --btn-secondary-color: #FFF;
+
+  --bg-color: #000;
+  --bg-primary-color: #06181C;
+  --bg-secondary-color: #092D38;
+
+  --text-primary-color: #7C7C8A;
+}
+
+body * {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  background-color: var(--bg-color);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+header {
+  width: 90rem;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  margin: 0 auto;
+}
+
+header img {
+  width: 20rem;
+  height: 10rem;
+}
+
+header div {
+  display: flex;
+  gap: 8px;
+}
+
+header div > input {
+  width: 35rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: var(--bg-secondary-color);
+  color: var(--text-primary-color);
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+header  button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  background-color: var(--btn-primary-color);
+  color: white;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+header button:hover {
+  background-color: #FFF;
+  transition: background;
+  color: var(--btn-primary-color);
+}
+
+header  button img {
+  width: 18px;
+  height: 18px;
+}
+
+header button:hover img {
+  filter: brightness(10%) sepia(140%) hue-rotate(100deg) saturate(100%); /* Esses valores podem ser ajustados para obter o tom de verde desejado */
+}
+
+ table  {
+  width: 90rem;
+  margin: 0 auto;
+  border-collapse: collapse;
+
+  box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
+}
+
+table * {
+  font-size: 1.4rem;
+  color: white;
+}
+
+table th {
+  background: var(--bg-secondary-color);
+  text-align: left;
+  font-weight: normal;
+  padding: 2rem 2rem;
+  font-size: 1.7rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+table th:first-child {
+  width: 40rem;
+  border-top-left-radius: .9rem;
+}
+table th:last-child {
+  border-top-right-radius: .9rem;
+}
+table tr:nth-child(even) {
+  background: var(--bg-secondary-color);
+  border-top: 1px solid hsla(191, 31%, 42%, 1);
+}
+
+table tr:nth-child(odd) {
+  background: var(--bg-primary-color);
+}
+
+table td {
+  padding: 3rem;
+  text-align: left;
+}
+
+table img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.remove {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  color: red;
+  cursor: pointer;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 1rem;
+}
+
+.user a {
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
+.user span {
+  color: rgb(216, 216, 216);
+  white-space: 10px;
+  font-weight: 600;
+  
+}
