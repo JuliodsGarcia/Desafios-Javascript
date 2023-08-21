@@ -84,7 +84,10 @@ Reforçando os conceitos de:
 
 ![App Screenshot](https://imgur.com/CqquXeh.png)
 
-- 
+- Classes e Modularização
+- Promises e Assincronia
+- Manipulação do DOM
+- Manipulação de Eventos
 
 <a href="" target="_blank">
 <img src="https://user-images.githubusercontent.com/71772559/178192066-d52e0cf7-906e-4baa-80f3-4b49dde153c0.png" />
@@ -93,3 +96,27 @@ Reforçando os conceitos de:
 <a href="https://www.figma.com/file/d2c76yv2iDjXYaph4Ja4h7/Focus-Timer-V2-%E2%80%A2-Projeto-Explorer-(Community)?node-id=1422%3A28&mode=dev" target="_blank">
 <img src="https://user-images.githubusercontent.com/71772559/178192253-4fe4757c-de57-4878-a38c-a483c25670b1.png" />
 </a>
+
+# Projeto 03/ GitHub Favorites App
+
+## Screenshots
+
+![App Screenshot](https://imgur.com/06Lqojw.png)
+
+Reforçando os conceitos de:
+
+- Classes e Modularização
+- Promises e Assincronia
+- Manipulação do DOM
+- Uso de Fetch para Requisições HTTP
+- Manipulação de Eventos
+- Armazenamento Local (localStorage)
+
+<a href="https://github.com/JuliodsGarcia/Desafios-Javascript/tree/main/GITFAV-2.0" target="_blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192066-d52e0cf7-906e-4baa-80f3-4b49dde153c0.png" />
+</a>
+
+<a href="https://www.figma.com/file/aihh5eLvaMPz4tXg6xw3i5/%5BDesafios-Explorer%5D-GitFav-(Copy)-(Copy)?node-id=303%3A364&mode=dev" target="_blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192253-4fe4757c-de57-4878-a38c-a483c25670b1.png" />
+</a>
+
